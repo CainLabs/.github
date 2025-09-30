@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/CainLabs/.github/blob/main/docs/Caincyberlabs_banner.png" alt="CainCyberLabs Banner">
+  <img src="https://github.com/CainLabs/.github/blob/main/docs/Caincyberlabs_bannerlong.png" alt="CainCyberLabs Banner">
 </p>
 
 <h1 align="center">Welcome to CainCyberLabs, LLC</h1>
