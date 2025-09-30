@@ -16,13 +16,13 @@ CainCyberLabs was founded by a U.S. Marine Corps veteran and career Cyber System
 
 ### 🚀 Our Products
 
-Our flagship product line, **CainMark Systems**, is a suite of professional, script-based auditors designed to save IT teams hundreds of hours and provide peace of mind during audit season.
+Our flagship product line, **CainCyberSolutions**, is a suite of professional, script-based auditors designed to save IT teams hundreds of hours and provide peace of mind during audit season.
 
 | Product | Description | Status |
 | :--- | :--- | :--- |
-| **CainMark Systems for PCI DSS** | A read-only auditor for key technical controls in the PCI DSS v4.0 standard. | ✅ **v1.0 Available** |
-| **CainMark Systems for CMMC** | A baseline auditor for CMMC Level 2 controls, designed for the Defense Industrial Base. | 📝 **In Development** |
-| **CainMark Systems for HIPAA** | A specialized auditor for file access controls related to the HIPAA Security Rule. | 📝 **In Development** |
+| **CainCyberSolution for PCI DSS** | A read-only auditor for key technical controls in the PCI DSS v4.0 standard. | ✅ **v1.0 Available** |
+| **CainCyberSolution for CMMC** | A baseline auditor for CMMC Level 2 controls, designed for the Defense Industrial Base. | 📝 **In Development** |
+| **CainCyberSolution for HIPAA** | A specialized auditor for file access controls related to the HIPAA Security Rule. | 📝 **In Development** |
 
 ### 🔭 Our Vision & Roadmap
 
