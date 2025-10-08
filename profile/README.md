@@ -1,5 +1,12 @@
 <p align="center">
-  <img src="https://github.com/CainLabs/.github/blob/main/docs/CainCyberLabsBlackholesmallname.PNG" alt="CainCyberLabs Banner">
+  <img src="https://github.com/CainLabs/.github/blob/main/docs/CainCyberLabsBlackholesmallname.PNG" alt="CainCyberLabs Banner"
+  width="128" 
+  height="64" 
+  style="
+      background-image:url('https://github.com/CainLabs/.github/blob/main/docs/CainCyberLabsBlackholesmallname.PNG');
+      background-repeat:no-repeat;
+      background-position: center center;
+  " /> 
 </p>
 
 <h1 align="center">Welcome to CainCyberLabs, LLC</h1>
