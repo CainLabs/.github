@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://github.com/CainLabs/.github/blob/main/docs/CainCyberLabsBlackholesmallname.PNG" alt="CainCyberLabs Banner"
-  width="128" 
-  height="64" 
+  width="708" 
+  height="138" 
   style="
       background-image:url('https://github.com/CainLabs/.github/blob/main/docs/CainCyberLabsBlackholesmallname.PNG');
       background-repeat:no-repeat;
