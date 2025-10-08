@@ -27,7 +27,7 @@ Our flagship product line, **CainCyberSolutions**, is a suite of professional, s
 ### 🔭 Our Vision & Roadmap
 
 Our mission is to make high-end compliance and security accessible. Our current tools are just the beginning. Our roadmap includes:
-- **GUI Development:** Creating user-friendly "click-and-go" graphical interfaces for our entire auditor suite.
+- **GUI Development:** Creating user-friendly "click-and-go" graphical interfaces for our entire auditor suite.  ✅
 - **Automated Remediation:** Adding premium features that don't just find problems, but fix them.
 - **Multi-Framework Platform:** Evolving our tools into a unified SaaS platform for continuous compliance monitoring.
 - **Project Sentinel OS:** The long-term vision to create a dedicated, security-hardened OS for "Blue Team" professionals.
