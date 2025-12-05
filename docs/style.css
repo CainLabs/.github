@@ -144,3 +144,16 @@ h2 svg, h3 svg { width: 28px; height: 28px; margin-right: 12px; vertical-align: 
         -webkit-backdrop-filter: blur(12px);
     }
 }
+
+/* Fix for "Request Demo" / Secondary Buttons */
+.cta-button.outline {
+    background-color: transparent;
+    color: var(--primary-accent);
+    border: 1px solid var(--primary-accent);
+}
+
+.cta-button.outline:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+    color: #fff;
+    transform: translateY(-2px);
+}
