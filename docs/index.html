@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compliance Compass by CainCyberLabs</title>
-    <link rel="stylesheet" href="style.css?v=2.4">
+    <link rel="stylesheet" href="style.css?v=2.5">
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
@@ -21,37 +21,37 @@
     </nav>
 
     <header class="hero">
-    <div class="container" style="position: relative; z-index: 10;">
-        <h1>Automate Your Audit. Secure Your Network.</h1>
-        <p>Compliance Compass is the enterprise-grade auditor that verifies PCI DSS, CMMC, and HIPAA configurations in a single pass. Professional. Portable. Precise.</p>
-        
-        <div style="margin-top: 2rem;">
-            <a href="products.html" class="cta-button">View Pricing</a>
-            <a href="contact.html" class="cta-button outline" style="margin-left: 1rem;">Request Demo</a>
-        </div>
+        <div class="container" style="position: relative; z-index: 10;">
+            <h1>Automate Your Audit. Secure Your Network.</h1>
+            <p>Compliance Compass is the enterprise-grade auditor that verifies PCI DSS, CMMC, and HIPAA configurations in a single pass. Professional. Portable. Precise.</p>
+            
+            <div style="margin-top: 2rem;">
+                <a href="products.html" class="cta-button">View Pricing</a>
+                <a href="contact.html" class="cta-button outline" style="margin-left: 1rem;">Request Demo</a>
+            </div>
 
-        <div class="terminal-window fade-in-section">
-            <div class="terminal-header">
-                <span class="terminal-dot red"></span>
-                <span class="terminal-dot yellow"></span>
-                <span class="terminal-dot green"></span>
-                <span style="margin-left: 15px; color: #8892b0; font-size: 0.8rem;">Administrator: PowerShell</span>
-            </div>
-            <div class="terminal-body">
-                <div><span class="cmd">PS C:\></span> .\ComplianceCompass.exe -Target Localhost -Scan All</div>
-                <br>
-                <div>[+] Starting Engine v2.3...</div>
-                <div>[+] Detecting Role... <span class="highlight">Domain Controller</span></div>
-                <div>----------------------------------------</div>
-                <div>[PCI-DSS] Password Complexity... <span class="success">PASS</span></div>
-                <div>[CMMC] Account Lockout Policy... <span class="success">PASS</span></div>
-                <div>[HIPAA] File Access Audit....... <span class="fail">WARNING (Unauthorized User Detected)</span></div>
-                <div>----------------------------------------</div>
-                <div><span class="highlight">Audit Complete.</span> Report generated: Audit_Report.html</div>
+            <div class="terminal-window fade-in-section">
+                <div class="terminal-header">
+                    <span class="terminal-dot red"></span>
+                    <span class="terminal-dot yellow"></span>
+                    <span class="terminal-dot green"></span>
+                    <span style="margin-left: 15px; color: #8892b0; font-size: 0.8rem;">Administrator: Compliance Compass</span>
+                </div>
+                <div class="terminal-body">
+                    <div><span class="cmd">PS C:\></span> .\ComplianceCompass.exe -Target Localhost -Scan All</div>
+                    <br>
+                    <div>[+] Starting Engine v2.3...</div>
+                    <div>[+] Detecting Role... <span class="highlight">Domain Controller</span></div>
+                    <div>----------------------------------------</div>
+                    <div>[PCI-DSS] Password Complexity... <span class="success">PASS</span></div>
+                    <div>[CMMC] Account Lockout Policy... <span class="success">PASS</span></div>
+                    <div>[HIPAA] File Access Audit....... <span class="fail">WARNING (Unauthorized User Detected)</span></div>
+                    <div>----------------------------------------</div>
+                    <div><span class="highlight">Audit Complete.</span> Report generated: Audit_Report.html</div>
+                </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
     <main class="container">
         <section id="value-prop" class="content-panel fade-in-section">
