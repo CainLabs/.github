@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CainCyberSolution by CainCyberLabs, LLC</title>
-    <link rel="stylesheet" href="style.css?v=1.3">
+    <title>Compliance Compass by CainCyberLabs</title>
+    <link rel="stylesheet" href="style.css?v=2.4">
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
@@ -22,33 +22,43 @@
 
     <header class="hero">
         <div class="container">
-            <h1>Automate Compliance Audits. Reclaim Your Team's Time.</h1>
-            <p>The professional, read-only PowerShell auditor for IT managers and their teams, delivering clear, actionable compliance reports in minutes.</p>
-            <a href="products.html" class="cta-button">View Our Products</a>
+            <h1>Automate Your Audit. Secure Your Network.</h1>
+            <p>Compliance Compass is the enterprise-grade auditor that verifies PCI DSS, CMMC, and HIPAA configurations in a single pass. Professional. Portable. Precise.</p>
+            <div style="margin-top: 2rem;">
+                <a href="products.html" class="cta-button">View Pricing</a>
+                <a href="contact.html" class="cta-button" style="background-color: transparent; margin-left: 1rem;">Request Demo</a>
+            </div>
         </div>
     </header>
 
     <main class="container">
-        <section id="problem" class="content-panel fade-in-section">
-            <h2>Is This Your Team's Audit Cycle?</h2>
-            <p>Preparing for a compliance audit often feels like a high-stakes, resource-draining marathon. Your best engineers are pulled off revenue-generating projects to spend days digging through dense vendor documentation and manually checking configurations across every in-scope system, knowing that a single missed setting could mean a failed audit.</p>
-            <ul>
-                <li><strong>Wasted Engineering Hours:</strong> Your team spends countless hours on tedious manual checks instead of critical project work.</li>
-                <li><strong>Constant Audit Anxiety:</strong> You worry that inconsistent, error-prone manual checks will miss a critical finding, putting the business at risk.</li>
-                <li><strong>Prohibitive Costs:</strong> You can't afford expensive, enterprise-grade security suites or a team of consultants, leaving your small team to handle the immense pressure alone.</li>
+        <section id="value-prop" class="content-panel fade-in-section">
+            <h2>Why Professionals Choose Compliance Compass</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-top: 2rem;">
+                <div style="flex: 1; min-width: 250px;">
+                    <h3><i data-feather="dollar-sign"></i> ROI in Minutes</h3>
+                    <p>Manual audits cost thousands in engineering hours. Our tool completes a full 3-framework audit in under 60 seconds.</p>
+                </div>
+                <div style="flex: 1; min-width: 250px;">
+                    <h3><i data-feather="lock"></i> Zero-Trust Design</h3>
+                    <p>No installation. No cloud connections. No agents. The safest way to audit air-gapped or sensitive networks.</p>
+                </div>
+                <div style="flex: 1; min-width: 250px;">
+                    <h3><i data-feather="file-text"></i> Client-Ready Reports</h3>
+                    <p>Generate professional HTML & CSV reports instantly. Perfect for MSPs, QSAs, and Internal Audit teams.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="content-panel fade-in-section">
+            <h2>Unified Compliance Engine</h2>
+            <p>Stop buying separate tools for every regulation. Our unified engine maps technical realities to regulatory requirements automatically.</p>
+            <ul style="margin-top: 1.5rem; list-style: none; padding: 0;">
+                <li><i data-feather="check" style="color: #64ffda; margin-right: 10px;"></i> <strong>PCI DSS v4.0:</strong> Firewall, TLS, Password Policy, Logging.</li>
+                <li><i data-feather="check" style="color: #64ffda; margin-right: 10px;"></i> <strong>CMMC Level 2:</strong> Access Control, System Integrity, Audit.</li>
+                <li><i data-feather="check" style="color: #64ffda; margin-right: 10px;"></i> <strong>HIPAA:</strong> File Access Monitoring, Audit Controls.</li>
             </ul>
         </section>
-
-        <section id="solution" class="content-panel fade-in-section">
-            <h2>Introducing CainCyberSolution: From Audit Anxiety to Actionable Clarity</h2>
-            <p>CainCyberLabs created the CainCyberSolution suite to end the cycle of manual audit frustration. These are professional, read-only PowerShell scripts designed to help system administrators and security professionals quickly audit their systems against key technical controls. Built with the rigor and discipline of a DoD systems security engineer, they give your team a fast, affordable, and 100% consistent way to verify your compliance posture.</p>
-        </section>
-
-        <section id="credibility" class="content-panel fade-in-section">
-            <h3><i data-feather="user-check"></i> Built by a DoD Security Expert</h3>
-            <p>CainCyberSolution tools are created by a U.S. Marine Corps veteran and career Cyber Systems Security Engineer with over a decade of experience hardening the nation's most critical systems. Each tool is infused with the discipline, rigor, and real-world expertise required to secure Authority to Operate (ATO) within the DoD, built by an engineer who has lived and breathed STIGs and NIST 800-53 compliance.</p>
-        </section>
-
     </main>
 
     <footer>
@@ -57,7 +67,6 @@
         </div>
     </footer>
 
-    <script src="https://store.caincyberlabs.com" defer></script>
     <script>
         feather.replace();
         const observer = new IntersectionObserver((entries) => {
