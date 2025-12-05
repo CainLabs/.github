@@ -1,12 +1,5 @@
 <p align="center">
-  <img src="https://github.com/CainLabs/.github/blob/main/docs/CainCyberLabsBlackholesmallname.PNG" alt="CainCyberLabs Banner"
-  width="708" 
-  height="138" 
-  style="
-      background-image:url('https://github.com/CainLabs/.github/blob/main/docs/CainCyberLabsBlackholesmallname.PNG');
-      background-repeat:no-repeat;
-      background-position: center center;
-  " /> 
+  <img src="https://github.com/CainLabs/.github/blob/main/docs/CainCyberLabsBlackholesmallname.PNG" alt="CainCyberLabs Banner" width="708" height="138" />
 </p>
 
 <h1 align="center">Welcome to CainCyberLabs, LLC</h1>
@@ -23,18 +16,16 @@ CainCyberLabs was founded by a U.S. Marine Corps veteran and career Cyber System
 
 ### 🚀 Our Products
 
-Our flagship product line, **CainCyberSolutions**, is a suite of professional, script-based auditors designed to save IT teams hundreds of hours and provide peace of mind during audit season.
+Our flagship product, **Compliance Compass**, unifies our auditing technology into a single, powerful tool designed to save IT teams hundreds of hours and provide peace of mind during audit season.
 
 | Product | Description | Status |
 | :--- | :--- | :--- |
-| **CainCyberSolution for PCI DSS** | A read-only auditor for key technical controls in the PCI DSS v4.0 standard. | ✅ **v1.0 Available** |
-| **CainCyberSolution for CMMC** | A baseline auditor for CMMC Level 2 controls, designed for the Defense Industrial Base. | 📝 **In Development** |
-| **CainCyberSolution for HIPAA** | A specialized auditor for file access controls related to the HIPAA Security Rule. | 📝 **In Development** |
+| **Compliance Compass** | A unified, portable auditor that verifies **PCI DSS**, **CMMC**, and **HIPAA** configurations simultaneously. Includes a built-in File Activity Monitor for behavioral detection. | 🚀 **v2.3 Available** |
 
 ### 🔭 Our Vision & Roadmap
 
-Our mission is to make high-end compliance and security accessible. Our current tools are just the beginning. Our roadmap includes:
-- **GUI Development:** Creating user-friendly "click-and-go" graphical interfaces for our entire auditor suite.  ✅
+Our mission is to make high-end compliance and security accessible.
+- **GUI Development:** ✅ **COMPLETED.** (Delivered in Compliance Compass v2.0)
 - **Automated Remediation:** Adding premium features that don't just find problems, but fix them.
 - **Multi-Framework Platform:** Evolving our tools into a unified SaaS platform for continuous compliance monitoring.
 - **Project Sentinel OS:** The long-term vision to create a dedicated, security-hardened OS for "Blue Team" professionals.
@@ -42,6 +33,5 @@ Our mission is to make high-end compliance and security accessible. Our current 
 ### 📫 Get in Touch
 
 - **Website:** [caincyberlabs.com](https://www.caincyberlabs.com)
-- **LinkedIn:** 
+- **LinkedIn:** [Insert LinkedIn URL Here]
 - **Email:** contact@caincyberlabs.com
-
