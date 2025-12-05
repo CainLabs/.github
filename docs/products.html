@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products - CainCyberLabs, LLC</title>
-    <link rel="stylesheet" href="style.css?v=1.3">
+    <title>Pricing - CainCyberLabs</title>
+    <link rel="stylesheet" href="style.css?v=2.4">
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
@@ -22,50 +22,45 @@
 
     <header class="hero">
         <div class="container">
-            <h1>The Professional's Toolkit for Automated Compliance</h1>
-            <p>A suite of expert-built auditors designed to save your team hundreds of hours and ensure compliance across multiple frameworks.</p>
+            <h1>Simple, Transparent Pricing</h1>
+            <p>One license. All frameworks. Unlimited audits on licensed devices.</p>
         </div>
     </header>
 
     <main class="container">
 
-        <section id="pci-product" class="content-panel fade-in-section">
-            <h2><i data-feather="credit-card"></i> CainCyberSolution for PCI DSS</h2>
-            <p>Our flagship auditor, designed for any business that handles cardholder data. It performs a deep, technical audit against the most critical controls in the PCI DSS v4.0 standard to prepare you for a successful assessment.</p>
-            <p><strong>Key Checks:</strong> Insecure Services & Protocols (SMBv1, Telnet), Domain & Local Authentication Policies, Advanced AD Policy Detection (FGPPs).</p>
-            <div class="price">$1,499</div>
-            <a href="#" class="cta-button">Buy for PCI DSS</a>
-        </section>
+        <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+            
+            <section class="content-panel fade-in-section cta-panel" style="flex: 1; min-width: 300px; border: 1px solid #233554;">
+                <h3>Single Site License</h3>
+                <div class="price">$499 <span style="font-size: 1rem; color: #8892b0;">/ year</span></div>
+                <p>Perfect for small businesses or single-location audits.</p>
+                <hr style="border: 0; border-top: 1px solid #233554; margin: 1.5rem 0;">
+                <ul class="cta-list">
+                    <li><i data-feather="check"></i> <strong>Full Compliance Compass Tool</strong></li>
+                    <li><i data-feather="check"></i> PCI, CMMC, HIPAA Modules</li>
+                    <li><i data-feather="check"></i> File Activity Monitor</li>
+                    <li><i data-feather="check"></i> Email Support</li>
+                </ul>
+                <a href="contact.html" class="cta-button">Buy Now</a>
+            </section>
 
-        <section id="cmmc-product" class="content-panel fade-in-section">
-            <h2><i data-feather="shield"></i> CainCyberSolution for CMMC</h2>
-            <p>Built for the Defense Industrial Base (DIB) and government contractors. This auditor provides a baseline assessment against key CMMC Level 2 controls derived from NIST 800-171, helping you prepare for official certification.</p>
-            <p><strong>Key Checks:</strong> Access Control Policy Audits, System Configuration Baselines, Audit & Accountability Log Settings.</p>
-            <div class="price">$1,499</div>
-            <a href="#" class="cta-button">Buy for CMMC</a>
-        </section>
+            <section class="content-panel fade-in-section cta-panel" style="flex: 1; min-width: 300px; border: 2px solid #64ffda; transform: scale(1.05);">
+                <div style="background: #64ffda; color: #0a192f; font-weight: bold; padding: 0.25rem; border-radius: 4px; display: inline-block; margin-bottom: 1rem;">MOST POPULAR</div>
+                <h3>Consultant License</h3>
+                <div class="price">$1,499 <span style="font-size: 1rem; color: #8892b0;">/ year</span></div>
+                <p>Designed for MSPs and Security Consultants managing multiple clients.</p>
+                <hr style="border: 0; border-top: 1px solid #64ffda; margin: 1.5rem 0;">
+                <ul class="cta-list">
+                    <li><i data-feather="check"></i> <strong>Unlimited Clients</strong></li>
+                    <li><i data-feather="check"></i> White-Label Ready Reports</li>
+                    <li><i data-feather="check"></i> Priority Support</li>
+                    <li><i data-feather="check"></i> Early Access to New Features</li>
+                </ul>
+                <a href="contact.html" class="cta-button">Buy Consultant License</a>
+            </section>
 
-        <section id="hipaa-product" class="content-panel fade-in-section">
-            <h2><i data-feather="activity"></i> CainCyberSolution for HIPAA</h2>
-            <p>A specialized tool for healthcare organizations and their partners. This auditor focuses on the HIPAA Security Rule, with a deep analysis of file and folder permissions (NTFS ACLs) to protect electronic Protected Health Information (ePHI).</p>
-            <p><strong>Key Checks:</strong> ePHI File Share Permission Auditing, User Access Control Validation, Audit Logging Verification for File Access.</p>
-            <div class="price">$1,499</div>
-            <a href="#" class="cta-button">Buy for HIPAA</a>
-        </section>
-
-        <section id="cta" class="content-panel fade-in-section cta-panel">
-            <h2><i data-feather="package"></i> Best Value: The CainCyberSolution Suite</h2>
-            <p>Equip your team with the complete set of CainCyberSolution auditors. Get all three of our professional tools—for PCI DSS, CMMC, and HIPAA—at a significant discount.</p>
-            <p><strong>Includes:</strong></p>
-            <ul class="cta-list">
-                <li><i data-feather="check"></i> CainCyberSolution for PCI DSS</li>
-                <li><i data-feather="check"></i> CainCyberSolution for CMMC</li>
-                <li><i data-feather="check"></i> CainCyberSolution for HIPAA</li>
-            </ul>
-            <div class="price">$2,999</div>
-            <p><em>(A $4,497 Value)</em></p>
-            <a href="#" class="cta-button">Buy The Suite</a>
-        </section>
+        </div>
 
     </main>
 
@@ -75,7 +70,6 @@
         </div>
     </footer>
 
-    <script src="https://store.caincyberlabs.com" defer></script>
     <script>
         feather.replace();
         const observer = new IntersectionObserver((entries) => {
